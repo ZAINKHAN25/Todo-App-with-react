@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Open+Sans&family=Poppins:ital,wght@1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #4c3423;
+}
+
+.header {
+    text-align: center;
+    background-color: #f19720;
+    padding: 25px 0px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.subheader {
+    text-align: center;
+    background-color: #df6b1b;
+    padding: 15px 0;
+}
+
+
+.selectofsubheader {
+    margin: 0px 8px 0px 15px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #fde7aa;
+    border: none;
+}
+
+.selectofsubheader option {
+    color: white;
+    background-color: rgba(0, 0, 0, 70%);
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.inputofsubheader {
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #fde7aa;
+    border: none;
+}
+
+.btnofsubheader {
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #67c1a3;
+    border: none;
+    transition: all .3s;
+}
+
+.btnofsubheader:hover {
+    background-color: #61f1a1;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.mainbody span {
+    margin: 5px 10px;
+    color: #dfcea3;
+}
+
+.sharp-x {
+    color: red;
+}
+
+.downwarddiv {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.cautiondiv {
+    background-color: #67c1a3;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.orderbydiv select {
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #fde7aa;
+    border: none;
+}
+
+.orderbydiv button {
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #fde7aa;
+    border: none;
+}
+
+.orderbydiv select option {
+    color: white;
+    background-color: rgba(0, 0, 0, 70%);
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.orderbydiv {
+    margin-bottom: 15px;
+}
