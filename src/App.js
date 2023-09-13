@@ -161,7 +161,7 @@ function App() {
         </div>
         <div className='cautiondiv'>
           You have {todolst.length} items on your list, and you already Packed{' '}
-          {packedThings.length} (({((packedThings.length / todolst.length) * 100).toFixed(2)}%) || "0")
+          {packedThings.length} ({((packedThings.length / todolst.length) * 100).toFixed(2)}%)
         </div>
       </div>
     </div>
